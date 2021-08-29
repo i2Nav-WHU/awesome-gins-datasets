@@ -1,29 +1,38 @@
 # Awesome GINS Dataset
 
-## An awesome GINS dataset for GNSS/INS integration applications
+## An awesome vehicular GINS dataset for GNSS/INS integration applications
 
 <img src="./GNSS RTK/Map.jpg" style="zoom:50%" />
 
-This repository provide an awesome GINS dataset for GNSS/INS integration applications. The biggest feature of the dataset is that four different grade MEMS IMUs are included, which provide an opportunity for the researches to comprehensively evaluate their algorithms.
+This repository provide an awesome GINS dataset for GNSS/INS integration applications. The biggest feature of the dataset is that four different grade of MEMS IMUs are included, which provide an opportunity for the researchers to comprehensively evaluate their algorithms.
 
 The dataset was collected in an open-sky industrial area, where the GNSS RTK was well satisfied. The duration of the whole dataset is 1617 seconds, including the raw IMU data, GNSS RTK positioning results, and the ground-truth for each IMU.
 
-**Authors:** Hailiang Tang, Xiaoji Niu, and Tisheng Zhang from the [Integrated and Intelligent Navigation Group](http://www.i2nav.com/), Wuhan University.
+**Authors:** Hailiang Tang, Xiaoji Niu, and Tisheng Zhang from the [Integrated and Intelligent Navigation (i2Nav) Group](http://www.i2nav.com/), Wuhan University.
 
 **Related Paper:**
 
 - ...
 
+If you use this dataset for your academic research, please cite our related papers; and give acknowledgement like:
+
+```
+English version: “The authors would like to acknowledge Dr. Xiaoji Niu and the Integrated and Intelligent Navigation (i2Nav) group from Wuhan University for providing the GNSS/INS dataset that was used in the paper.”
+中文模板：“本文作者感谢武汉大学多源智能导航实验室和牛小骥教授提供了本文所需的GNSS/INS数据集。”
+```
+
+**Explanation:** GitHub do not support Latex formula, and we suggest you read the document with a local Markdown editor, e.g.  **Typora**.
+
 ## 1 The MEMS IMU
 
 Four MEMS IMUs are included in this dataset, and the details about these IMUs are listed as follows:
 
-| IMU         | Description             | Vendor         | Gyroscope Bias Instability (Allan Variance) [$\deg/hr$] |
-| ----------- | ----------------------- | -------------- | ------------------------------------------------------- |
-| ICM20602    | consumer-grade chip     | InvenSense     | 10.0                                                    |
-| ADIS16460   | industrial-grade module | Analog Devices | 8.0                                                     |
-| ADIS16465   | industrial-grade module | Analog Devices | 2.0                                                     |
-| HGuide-i300 | industrial-grade module | Honeywell      | 3.0                                                     |
+| IMU         | Description             | Vendor              | Gyroscope Bias Instability (Allan Variance) [$\deg/hr$] |
+| ----------- | ----------------------- | ------------------- | ------------------------------------------------------- |
+| ICM20602    | consumer-grade chip     | InvenSense          | 10.0                                                    |
+| ADIS16460   | industrial-grade module | Analog Devices Inc. | 8.0                                                     |
+| ADIS16465   | industrial-grade module | Analog Devices Inc. | 2.0                                                     |
+| HGuide-i300 | industrial-grade module | Honeywell           | 3.0                                                     |
 
 We also provide a set of noise parameters for each IMU, which are obtained by conducting parameter tuning. Specifically, the IMU measurements are defined as follows: 
 $$
