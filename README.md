@@ -1,6 +1,6 @@
 # Awesome GINS Dataset
 
-## An awesome vehicular GINS dataset for GNSS/INS integration applications
+## An awesome vehicle GINS dataset for GNSS/INS integration applications
 
 <img src="./GNSS RTK/Map.jpg" style="zoom:50%" />
 
@@ -12,7 +12,8 @@ The dataset was collected in an open-sky industrial area, where the GNSS RTK was
 
 **Related Paper:**
 
-- ...
+- Hailiang Tang, Xiaoji Niu, Tisheng Zhang, Jing Fan, and Jingnan Liu, “Exploring the Accuracy Potential of IMU Preintegration in Factor Graph Optimization,” Sep. 2021, Accessed: Sep. 08, 2021. [Online]. Available: https://arxiv.org/abs/2109.03010v1
+
 
 If you use this dataset for your academic research, please cite our related papers; and give acknowledgement like:
 
