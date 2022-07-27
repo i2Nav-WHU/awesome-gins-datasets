@@ -12,7 +12,7 @@ The dataset was collected in an open-sky industrial area, where the GNSS RTK was
 
 **Related Paper:**
 
-- Hailiang Tang, Xiaoji Niu, Tisheng Zhang, Jing Fan, and Jingnan Liu, “Exploring the Accuracy Potential of IMU Preintegration in Factor Graph Optimization,” Sep. 2021, Accessed: Sep. 08, 2021. [Online]. Available: https://arxiv.org/abs/2109.03010v1
+- Hailiang Tang, Tisheng Zhang, Xiaoji Niu, Jing Fan, and Jingnan Liu, “Impact of the Earth Rotation Compensation on MEMS-IMU Preintegration of Factor Graph Optimization,” *IEEE Sensors Journal*, 2022.
 
 
 If you use this dataset for your academic research, please cite our related papers; and give acknowledgement like:
