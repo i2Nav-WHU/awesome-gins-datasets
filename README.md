@@ -74,19 +74,19 @@ The IMU body frame (b-frame) is defined as forward-right-down (FRD) coordinate. 
 
 ## 3 File format descriptions
 
-Three type of files are contained in the dataset, including the IMU binary file, the GNSS positioning result text file, and the ground-truth text file.
+Three type of files are contained in the dataset, including the IMU file, the GNSS positioning file, and the ground-truth file.
 
-The IMU binary file format (*.bin) is defined as:
+The IMU text file format (*.txt) is defined as:
 
-| Field | Type   | Bytes | Description                 | Units |
-| ----- | ------ | ----- | --------------------------- | ----- |
-| 1     | double | 8     | GNSS seconds of week        | $s$   |
-| 2     | double | 8     | incremental angle x axis    | $rad$ |
-| 3     | double | 8     | incremental angle y axis    | $rad$ |
-| 4     | double | 8     | incremental angle z axis    | $rad$ |
-| 5     | double | 8     | incremental velocity x axis | $m/s$ |
-| 6     | double | 8     | incremental velocity y axis | $m/s$ |
-| 7     | double | 8     | incremental velocity z axis | $m/s$ |
+| Field | Description                 | Units |
+| ----- | --------------------------- | ----- |
+| 1     | GNSS seconds of week        | $s$   |
+| 2     | incremental angle x axis    | $rad$ |
+| 3     | incremental angle y axis    | $rad$ |
+| 4     | incremental angle z axis    | $rad$ |
+| 5     | incremental velocity x axis | $m/s$ |
+| 6     | incremental velocity y axis | $m/s$ |
+| 7     | incremental velocity z axis | $m/s$ |
 
 The GNSS positioning result text file (*.pos, 7 columns) is defined as:
 
