@@ -81,12 +81,12 @@ The IMU text file format (*.txt) is defined as:
 | Field | Description                 | Units |
 | ----- | --------------------------- | ----- |
 | 1     | GNSS seconds of week        | $s$   |
-| 2     | incremental angle x axis    | $rad$ |
-| 3     | incremental angle y axis    | $rad$ |
-| 4     | incremental angle z axis    | $rad$ |
-| 5     | incremental velocity x axis | $m/s$ |
-| 6     | incremental velocity y axis | $m/s$ |
-| 7     | incremental velocity z axis | $m/s$ |
+| 2     | incremental angle x axis    | $rad/s<sup>2</sup>$ |
+| 3     | incremental angle y axis    | $rad/s<sup>2</sup>$ |
+| 4     | incremental angle z axis    | $rad/s<sup>2</sup>$ |
+| 5     | incremental velocity x axis | $m/s<sup>2</sup>$ |
+| 6     | incremental velocity y axis | $m/s<sup>2</sup>$ |
+| 7     | incremental velocity z axis | $m/s<sup>2</sup>$ |
 
 The GNSS positioning result text file (*.pos, 7 columns) is defined as:
 
